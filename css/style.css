@@ -1,0 +1,129 @@
+html,body {
+  background: url("../img/bg3.jpg") center center no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+@media(max-width:768px)  {
+  #logo img{
+    width: 50%;
+  }
+
+  #intro p{
+    padding-top: 15px !important;
+    margin-top:  10px !important;
+    font-size: 1.4em !important;
+  }
+
+  #counter .countdown{
+    font-size: 1.1em !important ;
+  }
+
+  #icons .fa{
+    margin: 0px !important;
+    font-size: 3.5em;
+  }
+}
+
+@media(min-width:321px) and (max-width:568px) {
+  #logo img{
+    width: 15% !important;
+  }
+
+  #intro p{
+    font-family: sans-serif !important;
+    padding-top: 15px !important;
+    margin-top:  10px !important;
+    font-size: 1em !important;
+  }
+
+  #counter .countdown{
+    font-family: sans-serif !important;
+    font-size: 0.8em !important ;
+  }
+
+  #icons .fa{
+    margin: 0px !important;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+}
+#logo img{
+  padding-top: 20px;
+}
+
+#intro p{
+  padding-top: 60px;
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+}
+
+#counter .countdown{
+  color:white;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+}
+
+#icons{
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+#icons .fa{
+  color: white;
+  margin: 10px 15px;
+  position: relative;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover{
+  color: #6cadde;
+  bottom: 8px;
+}
+
+
+#icons .github:hover{
+  color: #6e5494;
+  bottom: 8px;
+}
+
+
+#icons .steam:hover{
+  color: #00adee;
+  bottom: 8px;
+}
+
+
+#icons .linkedid:hover{
+  color: #0077b5;
+  bottom: 8px;
+}
+
+#signup {
+  text-align: center;
+}
+
+#signup .form-inline{
+  display: block;
+}
+
+.message{
+  color: white !important;
+}
+
+#signup .btn{
+  background-color: rgba(161 , 186, 226, 0.7);
+  color: white;
+}
+
+#signup .btn:hover{
+  background-color: rgba(37 , 165, 82,1);
+  color: white;
+}
